@@ -66,7 +66,9 @@ function MainContent(): JSX.Element {
           {threeFavouriteFoods[0]}, {threeFavouriteFoods[1]} and{" "}
           {threeFavouriteFoods[2]}!
         </p>
-        <p>My favourite hobbies are playing, football and talking to my friends.</p>
+        <p>
+          My favourite hobbies are playing, football and talking to my friends.
+        </p>
       </section>
     </main>
   );
