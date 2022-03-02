@@ -20,7 +20,9 @@ function MainContent(): JSX.Element {
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is {fullName.firstName} {fullName.lastName}.</p>
+        <p>
+          Hi! My name is {fullName.firstName} {fullName.lastName}.
+        </p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
