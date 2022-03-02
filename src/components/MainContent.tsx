@@ -2,20 +2,25 @@ import { capitalise } from "../utils/capitalise";
 
 function MainContent(): JSX.Element {
   const location = {
-    city: "Kuala Lumpur",
-    country: "Malaysia",
+    city: "London",
+    country: "England",
   };
 
-  const numOne = 3;
-  const numTwo = 6;
+  const fullName = {
+    firstName: "Bat",
+    lastName: "Matten",
+  };
 
-  const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
+  const numOne = 7;
+  const numTwo = 12;
+
+  const threeFavouriteFoods = ["Pizza", "DimSum", "Pasta"];
 
   return (
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>Hi! My name is {fullName.firstName} {fullName.lastName}.</p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
