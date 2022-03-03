@@ -4,7 +4,7 @@ function PageHeader(): JSX.Element {
       <h1>Ye Olde Web Page</h1>
       <p>Welcome to Roshni's Ye Olde Web Page!</p>
       <p>
-        This shows a random scatter of my thoughts, last updated on March 3,
+        This shows absolutly nothing. last updated on March 3,
         2022.
       </p>
     </header>
