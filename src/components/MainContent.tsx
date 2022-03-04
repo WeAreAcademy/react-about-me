@@ -9,7 +9,7 @@ function MainContent(): JSX.Element {
   const numOne = 3;
   const numTwo = 6;
 
-  const threeFavouriteFoods = ["Chocolate", "Curry", "Pizza"];
+  const threeFavouriteFoods = ["Chocolate", "Lamb Bhuna", "Pizza"];
 
   return (
     <main>
