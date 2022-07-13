@@ -22,13 +22,8 @@ function MainContent(): JSX.Element {
       </section>
       <section>
         <h2>Musing of the month ({location.city}, June 1995)</h2>
-        <p>
-          Q: What do you call a dog that's hustling?
-          wood?
-        </p>
-        <p>
-          A: A husky (laugh for me, please)
-        </p>
+        <p>Q: What do you call a dog that's hustling? wood?</p>
+        <p>A: A husky (laugh for me, please)</p>
       </section>
       <section>
         <h2>Numbers</h2>
