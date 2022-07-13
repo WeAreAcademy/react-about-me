@@ -14,7 +14,7 @@ function MainContent(): JSX.Element {
   return (
     <main>
       <section>
-        <h2>About Me</h2>
+        <h2>About Me:</h2>
         <p>Hi! My name is Nichard Rg.</p>
         <p>
           I currently live in {location.city}, {location.country}.
