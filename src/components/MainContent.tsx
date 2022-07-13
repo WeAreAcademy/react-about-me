@@ -2,33 +2,32 @@ import { capitalise } from "../utils/capitalise";
 
 function MainContent(): JSX.Element {
   const location = {
-    city: "Kuala Lumpur",
-    country: "Malaysia",
+    city: "London",
+    country: "United Kingdom",
   };
 
   const numOne = 3;
   const numTwo = 6;
 
-  const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
+  const threeFavouriteFoods = ["Bubble Tea", "Ramen", "Thai Green Curry"];
 
   return (
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>Hi! My name is Bhawick Jain.</p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
       </section>
       <section>
-        <h2>Musing of the month ({location.city}, March 2003)</h2>
+        <h2>Musing of the month ({location.city}, June 1995)</h2>
         <p>
-          Q: How much wood could a woodchuck chuck if a woodchuck could chuck
+          Q: What do you call a dog that's hustling?
           wood?
         </p>
         <p>
-          A: A woodchuck would chuck all the wood they could chuck if a
-          woodchuck would chuck wood.
+          A: A husky (laugh for me, please)
         </p>
       </section>
       <section>
