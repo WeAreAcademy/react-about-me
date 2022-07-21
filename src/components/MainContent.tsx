@@ -6,8 +6,8 @@ function MainContent(): JSX.Element {
     country: "Malaysia",
   };
 
-  const numOne = 3;
-  const numTwo = 6;
+  const numOne = 4;
+  const numTwo = 12;
 
   const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
 
@@ -15,7 +15,7 @@ function MainContent(): JSX.Element {
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>Hi! My name is Mistura Adeoye.</p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
