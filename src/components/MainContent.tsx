@@ -2,8 +2,8 @@ import { capitalise } from "../utils/capitalise";
 
 function MainContent(): JSX.Element {
   const location = {
-    city: "Kuala Lumpur",
-    country: "Malaysia",
+    city: "Lisboa",
+    country: "Portugal",
   };
 
   const numOne = 3;
