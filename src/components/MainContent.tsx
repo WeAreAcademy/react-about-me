@@ -18,6 +18,9 @@ function MainContent(): JSX.Element {
         <p>Hi! My name is Nichard Rg.</p>
         <p>
           I currently live in {location.city}, {location.country}.
+          ********************************
+          Added some more text for testing.
+          ********************************
         </p>
       </section>
       <section>
